@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    overflow-x: hidden; /* ELIMINAR EL DESPLAZAMIENTO HORIZONTAL*/
+}
+
+header {
+    background-color: #000000 !important;
+    padding: 10px;
+  }
+
+.navbar-nav .nav-link {
+ color: white !important;
+}
+
+.navbar-nav .nav-link.active {
+    color: #D90368 !important;
+}
+
+.banner {
+max-width: 100%;
+height: auto;
+font-size: 30%;
+width:100vw;
+}
+
+.container_01{
+    padding-left: 10%;
+    padding-top: 1%;
+    padding-bottom: 0%;
+}
+
+/*Card_title */
+.fw-bold {
+    color: #D90368 !important;
+}
+
+/*form*/
+form {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button[type="submit"] {
+    background-color: #D90368;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button[type="submit"]:hover {
+    background-color: #444444;
+    color: #D90368;
+    font-weight: bold;
+}
+
+
+
+/* title_carousel */
+.carousel-item h3 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 10px;
+  background-color: rgba(0, 0, 0, 0.685);
+  width: 100%;
+}
+
+.btn-primary {
+    background-color: #D90368 !important;
+    border-color: #D90368 !important;
+}
+
+/* details*/
+
+section.details {
+    padding: 23px 0;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 50px;
+  }
+  
+.details_title {
+    color: #D90368 !important;
+    font-weight: bold;
+}
+  
+p {
+    margin-bottom: 1rem;
+    text-align: justify
+}
+
+strong {
+    color: #D90368;
+    font-weight: bold;
+  }
+
+
+/*footer*/
+.footer {
+    background-color: #000000 !important;
+    color: white;
+    width: 100%;
+    padding: 40px 15px;
+  }
+  
+  .social-icons a {
+    color: #D90368;
+    font-size: 30px;
+    margin-right: 10px;
+  }
+  
+  .social-icons a:last-child {
+    margin-right: 0;
+  }
+
+/*table*/
+.table {
+    border: 2px solid #D90368;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-color: #D90368 !important;
+    border: 5px solid #D90368;
+  }
+  
+  .table th,
+  .table td {
+    border: 1px solid #D90368;
+    padding: 0.75rem;
+    vertical-align: top;
+  }
+  
+  .bg-color {
+    background-color: #D90368;
+    color: #000000;
+  }
+  
+  .border-right {
+    border-right: 1px solid #000000;
+  }
+  
+
+
+
+
+

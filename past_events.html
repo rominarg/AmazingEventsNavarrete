@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Past Events</title>
+    <!-- Bootstrap 5.3v -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- íconos de bootstrap  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+
+<header>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid"><a class="navbar-brand">
+                <img src="./Assets/img/Logo_Amazing_Events.png" alt="logo" href="./index.html" class="logo d-inline-block align-text-top"></a>
+              <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="./index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./upcoming_events.html">Upcoming Events</a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link active" aria-current="page" href="#">Past Events</a>
+                </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./contact.html">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./stats.html">Stats</a>
+                  </li>
+              </div>
+            </div>
+          </nav>          
+    </header>
+
+<main>
+  <section class="banner">
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./assets/img/banner_01_past_events_museum.jpg" class="d-block w-100" alt="banner 1">
+          <div class="carousel-caption">
+            <h3>Past Events</h3>
+            <h3>Museum Tour</h3>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/img/banner_02.jpg" class="d-block w-100" alt="banner 2">
+          <div class="carousel-caption">
+            <h3>Past Events</h3>
+            <h3>Cinema</h3>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/img/banner_02_past_events_costume_party.jpg" class="d-block w-100" alt="banner 3">
+          <div class="carousel-caption">
+            <h3>Past Events</h3>
+            <h3>Costume Party</h3>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+<section class="container_01">
+    <div class="row">
+      <div class="col-md-6 d-flex align-items-center">
+        <div class="d-flex">
+          <div class="form-check mr-3">
+            <input class="form-check-input" type="checkbox" value="" id="check1">
+            <label class="form-check-label" for="check1">Categoría 1</label>
+          </div>
+          <div class="form-check mr-3">
+            <input class="form-check-input" type="checkbox" value="" id="check2">
+            <label class="form-check-label" for="check2">Categoría 2</label>
+          </div>
+          <div class="form-check mr-3">
+            <input class="form-check-input" type="checkbox" value="" id="check3">
+            <label class="form-check-label" for="check3">Categoría 3</label>
+          </div>
+          <div class="form-check mr-3">
+            <input class="form-check-input" type="checkbox" value="" id="check4">
+            <label class="form-check-label" for="check4">Categoría 4</label>
+          </div>
+          <div class="form-check mr-3">
+            <input class="form-check-input" type="checkbox" value="" id="check5">
+            <label class="form-check-label" for="check5">Categoría 5</label>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 d-flex align-items-center justify-content-end">
+        
+        <div class="input-group mb-3">
+          <input type="text" class="form-control" placeholder="Buscar" aria-label="Buscar" aria-describedby="button-addon2">
+          <button class="btn btn-outline-secondary" type="button" id="button-addon2">Buscar</button>
+        </div>
+      </div>
+    </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="row p-2">
+      <div class="col-md-3">
+        <div class="card">
+          <img src="./Assets/img/Music_Concert.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Music Concert</h5>
+            <p class="card-text">Come and enjoy a night full of live music! Join us at our concert and let yourself be carried away by the rhythms and melodies of your favorite artists.</p><br>
+            <div class="d-flex justify-content-between align-items-center">
+              <p class="card-price m-0">Price $250</p>
+              <a href="./details.html" class="btn btn-primary">See More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card">
+          <img src="./Assets/img/Cinema.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Cinema</h5>
+            <p class="card-text">Love movies? Don't miss our night of cinema! Join us to watch the most exciting and heartwarming movies of all time.</p><br><br>
+            <div class="d-flex justify-content-between align-items-center">
+              <p class="card-price m-0">Price $250</p>
+              <a href="./details_01.html" class="btn btn-primary">See More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card">
+          <img src="./Assets/img/Costume_Party.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Costume Party</h5>
+            <p class="card-text">Looking for an exciting night out? Come to our costume party! Meet new people, enjoy great music, and make unforgettable memories.</p><br>
+            <div class="d-flex justify-content-between align-items-center">
+              <p class="card-price m-0">Price $250</p>
+              <a href="./details_02.html" class="btn btn-primary">See More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card">
+          <img src="./Assets/img/Food_Fair.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title fw-bold">Museum Tour</h5>
+            <p class="card-text">Looking for a memorable night out? Join our museum tour and make memories while enjoying great company, fascinating exhibits, and stories</p><br>
+            <div class="d-flex justify-content-between align-items-center">
+              <p class="card-price m-0">Price $250</p>
+              <a href="./details_03.html" class="btn btn-primary">See More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+      <div class="d-flex justify-content-between align-items-center">
+        <div class="social-icons">
+          <a href="#"><i class="bi bi-instagram"></i></a>
+          <a href="#"><i class="bi bi-facebook"></i></a>
+          <a href="#"><i class="bi bi-whatsapp"></i></a>
+        </div>
+        <div>Cohort</div>
+      </div>
+    </div>
+</footer>
+
+</main>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script> 
+</body>
+</html>
