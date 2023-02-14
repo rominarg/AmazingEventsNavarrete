@@ -23,6 +23,7 @@ header {
 
 .pink_icon{
   background: url('../img/pink_icon.svg')!important;
+  width: 1rem;
 }
 .banner {
 max-width: 100%;
