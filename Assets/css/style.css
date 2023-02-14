@@ -21,6 +21,7 @@ header {
     color: #D90368 !important;
 }
 
+
 .pink_icon{
   background: url('../img/pink_icon.svg')!important;
   width: 1rem;
@@ -191,7 +192,7 @@ strong {
     color: white;
   }
   
-  .text_footer{
+  .text_footer {
     color: #D90368 !important;
     font-weight: bold;
     font-size: 22px;
