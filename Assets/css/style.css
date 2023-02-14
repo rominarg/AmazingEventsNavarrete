@@ -92,6 +92,14 @@ button[type="submit"]:hover {
     border-color: #D90368 !important;
 }
 
+.btn-primary:hover {
+  transform: scale(1.1);
+  color: #D90368;
+  background-color: #000000!important;
+  border-color: #000000!important;
+  font-weight: bold!important;
+}
+
 /* details*/
 
 section.details {
@@ -170,6 +178,30 @@ strong {
   .border-right {
     border-right: 1px solid #000000;
   }
+
+  .social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    transition: all 0.3s ease;
+    color: #D90368;
+  }
+  
+  .social-icons a:hover {
+    transform: scale(1.2);
+    color: white;
+  }
+  
+  .text_footer{
+    color: #D90368 !important;
+    font-weight: bold;
+    font-size: 22px;
+  }
+  
+  .d-flex div:hover {
+    transform: scale(1.2);
+    color: white!important;
+  }
+  
   
 
 
