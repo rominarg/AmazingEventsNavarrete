@@ -21,6 +21,9 @@ header {
     color: #D90368 !important;
 }
 
+.pink_icon{
+  background: url('../img/pink_icon.svg')!important;
+}
 .banner {
 max-width: 100%;
 height: auto;
@@ -74,8 +77,6 @@ button[type="submit"]:hover {
     font-weight: bold;
 }
 
-
-
 /* title_carousel */
 .carousel-item h3 {
   font-size: 50px;
@@ -115,6 +116,12 @@ p {
 strong {
     color: #D90368;
     font-weight: bold;
+  }
+
+  .button_back{
+    display: flex;
+    justify-content: flex-end !important;
+    padding: 1%;
   }
 
 

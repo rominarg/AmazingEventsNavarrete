@@ -1,3 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 18">
-  <path id="descarga" d="M4,7H26M4,15H26M4,23H26" transform="translate(-3 -6)" fill="#d90368" stroke="#d90368" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="173" height="169" viewBox="0 0 173 169">
+  <g id="Grupo_1" data-name="Grupo 1" transform="translate(-251 -97)">
+    <rect id="Rectángulo_1" data-name="Rectángulo 1" width="169" height="37" rx="18.5" transform="translate(251 97)" fill="#d90368"/>
+    <rect id="Rectángulo_2" data-name="Rectángulo 2" width="169" height="37" rx="18.5" transform="translate(255 163)" fill="#d90368"/>
+    <rect id="Rectángulo_3" data-name="Rectángulo 3" width="169" height="37" rx="18.5" transform="translate(255 229)" fill="#d90368"/>
+  </g>
 </svg>
