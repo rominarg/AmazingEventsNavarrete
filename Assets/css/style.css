@@ -18,6 +18,10 @@ header {
   font-size: 20px;
 }
 
+.navbar-nav .nav-link.active:hover{
+  box-shadow: rgba(0, 0, 0, 100) 0px 0px 0px 2px, rgba(0, 0, 0, 100) 0px 4px 6px -1px, rgba(0, 0, 0, 100) 0px 1px 0px inset;
+}
+
 .navbar-nav .nav-link.active {
   color: white !important;
 }
@@ -182,41 +186,41 @@ strong {
   padding: 40px 15px;
   }
   
-  .social-icons a {
-    display: inline-block;
-    color: #D90368;
-    font-size: 30px;
-    padding-left: 20px;
-    margin: 0 10px;
-    transition: all 0.3s ease;
-  }
+.social-icons a {
+  display: inline-block;
+  color: #D90368;
+  font-size: 30px;
+  padding-left: 20px;
+  margin: 0 10px;
+  transition: all 0.3s ease;
+}
 
-  .social-icons a:hover {
-    transform: scale(1.2);
-    color: white;
-  }
+.social-icons a:hover {
+  transform: scale(1.2);
+  color: white;
+}
   
-  .text_footer {
-    color: #D90368 !important;
-    font-weight: bold;
-    font-size: 22px;
-  }
+.text_footer {
+  color: #D90368 !important;
+  font-weight: bold;
+  font-size: 22px;
+}
   
-  .d-flex div:hover {
-    transform: scale(1.2);
-    color: white!important;
-  }
+.d-flex div:hover {
+  transform: scale(1.2);
+  color: white!important;
+}
 
 /*table*/
 .table {
-    border: 2px solid #D90368;
-    border-collapse: collapse;
-    width: 100%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border-color: #D90368 !important;
-    border: 5px solid #D90368;
-  }
+  border: 2px solid #D90368;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-color: #D90368 !important;
+  border: 5px solid #D90368;
+}
   
 .table th,
 .table td {
