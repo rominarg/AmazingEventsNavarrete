@@ -65,17 +65,30 @@ width:100vw;
 .fw-bold {
     color: #D90368 !important;
 }
-
-/*form*/
-form {
-    max-width: 500px;
-    margin: auto;
-    padding: 20px;
-    border-color:#D90368 !important;
+.card {
+  border-color: #D90368 !important;
+  border-width: 2px;
 }
+
+.card:hover {
+  box-shadow: rgba(0, 0, 0, 100) 0px 0px 0px 2px, rgba(0, 0, 0, 100) 0px 4px 6px -1px, rgba(0, 0, 0, 100) 0px 1px 0px inset;
+}
+/*form*/
+
+form {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  border-color:#D90368 !important;
+}
+
 .form-control{
   border-color:#D90368 !important;
   border-width: 2px;
+}
+
+.form-control:hover{
+  box-shadow: rgba(0, 0, 0, 100) 0px 0px 0px 2px, rgba(0, 0, 0, 100) 0px 4px 6px -1px, rgba(0, 0, 0, 100) 0px 1px 0px inset;
 }
 
 label {
@@ -83,7 +96,7 @@ label {
 }
 
 textarea {
-    resize: vertical;
+  resize: vertical;
 }
 
 button[type="submit"] {
@@ -116,8 +129,8 @@ button[type="submit"]:hover {
 }
 
 .btn-primary {
-    background-color: #D90368 !important;
-    border-color: #D90368 !important;
+  background-color: #D90368 !important;
+  border-color: #D90368 !important;
 }
 
 .btn-primary:hover {
@@ -130,18 +143,18 @@ button[type="submit"]:hover {
 
 /* details*/
 section.details {
-    padding: 23px 0;
+  padding: 23px 0;
   }
   
   img {
-    max-width: 100%;
-    height: auto;
-    margin-right: 50px;
+  max-width: 100%;
+  height: auto;
+  margin-right: 50px;
   }
   
 .details_title {
-    color: #D90368 !important;
-    font-weight: bold;
+  color: #D90368 !important;
+  font-weight: bold;
 }
   
 p {
@@ -154,19 +167,19 @@ strong {
   font-weight: bold;
   }
 
-  .button_back{
-    display: flex;
-    justify-content: flex-end !important;
-    padding: 1%;
+.button_back{
+  display: flex;
+  justify-content: flex-end !important;
+  padding: 1%;
   }
 
 
 /*footer*/
 .footer {
-    background-color: #000000 !important;
-    color: white;
-    width: 100%;
-    padding: 40px 15px;
+  background-color: #000000 !important;
+  color: white;
+  width: 100%;
+  padding: 40px 15px;
   }
   
   .social-icons a {
@@ -205,11 +218,16 @@ strong {
     border: 5px solid #D90368;
   }
   
-  .table th,
-  .table td {
-    border: 1px solid #D90368;
+.table th,
+.table td {
+  border: 1px solid #D90368;
     padding: 0.75rem;
     vertical-align: top;
+  }
+
+.table th,
+.table td:Hover {
+  box-shadow: rgba(0, 0, 0, 100) 0px 0px 0px 2px, rgba(0, 0, 0, 100) 0px 4px 6px -1px, rgba(0, 0, 0, 100) 0px 1px 0px inset;
   }
   
   .bg-color {
