@@ -31,7 +31,7 @@ font-size: 30%;
 width:100vw;
 }
 
-.container_01{
+.container_flex{
   padding-left: 15%;
   padding-top: 1%;
   background-color: #D90368 !important;
@@ -63,18 +63,53 @@ width:100vw;
   background-color: #D90368 !important;
 }
 
-/*Card_title */
-.fw-bold {
-    color: #D90368 !important;
-}
+/*Card*/
 .card {
+  height: 22rem;
+  width: 18rem;
   border-color: #D90368 !important;
   border-width: 2px;
+}
+
+.card-img-top {
+  height: 40%;
+  object-fit: cover;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.card-price {
+  font-size: 1rem;
+}
+
+.fw-bold {
+    color: #D90368 !important;
 }
 
 .card:hover {
   box-shadow: rgba(0, 0, 0, 100) 0px 0px 0px 2px, rgba(0, 0, 0, 100) 0px 4px 6px -1px, rgba(0, 0, 0, 100) 0px 1px 0px inset;
 }
+
+@media (max-width: 576px) {
+  #cardContainer .col-md-3 {
+    width: 100%;
+    height: auto;
+    margin-bottom: 0.3rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .col-md-3 {
+    margin-bottom: 1rem;
+  }
+
+  .card {
+    margin-bottom: 1rem;
+  }
+}
+
 /*form*/
 
 form {
@@ -204,8 +239,8 @@ strong {
 }
   
 .d-flex div:hover {
-  transform: scale(1.2);
-  color: white!important;
+  transform: scale(1.01);
+  color: rgb(2, 2, 2)!important;
 }
 
 /*table*/
@@ -240,11 +275,50 @@ strong {
   border-right: 1px solid #000000;
 }
 
+/* Estilos para la versión móvil */
+@media (max-width: 767px) {
+  /* Ancho del contenedor a pantalla completa */
+  .container_flex {
+    width: 100%;
+  }
 
+  /* Estilos para los elementos del formulario */
+  .form-check {
+    margin-right: 10px;
+    width: calc(50% - 10px); 
+  }
+
+  /* Estilos para la barra de búsqueda */
+  .input-group {
+    display: flex;
+    width: 100%;
+    margin-top: 1px;
+    justify-content: center;
+    padding-right: 25px;
+  }
+
+  /* Ajuste de los estilos para la alineación de los elementos */
+  .d-flex {
+    display: flex !important;
+    flex-wrap: wrap;
+  }
+
+  .d-flex > * {
+    margin-bottom: 10px;
+  }
+}
+
+/*carousel*/
+@media (max-width: 576px) {
+  .carousel-item img {
+    max-height: 200px;
+  }
   
+  .carousel-caption h3 {
+    font-size: 1.5rem;
+  }
   
-
-
-
-
-
+  .carousel-caption {
+    font-size: 0.8rem;
+  }
+}
