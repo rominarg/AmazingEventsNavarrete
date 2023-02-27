@@ -42,7 +42,6 @@ width:100vw;
   font-size: 14px;
   color: #ffffff !important;
   padding-right: 12px;
-  padding-bottom: 12px;
   font-family: 'Courier New', Courier, monospace;
 }
 
@@ -303,6 +302,7 @@ strong {
   /* Ancho del contenedor a pantalla completa */
   .container_flex {
     width: 100%;
+    font-size: 16px;
   }
 
   /* Estilos para los elementos del formulario */
