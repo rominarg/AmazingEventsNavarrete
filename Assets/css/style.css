@@ -65,10 +65,16 @@ width:100vw;
 
 /*Card*/
 .card {
-  height: 22rem;
-  width: 18rem;
+  height: 30rem;
+  width: 18.5rem;
   border-color: #D90368 !important;
   border-width: 2px;
+  padding-bottom: 2px;
+
+}
+.card-body{
+  margin-top: auto;
+  height: auto;
 }
 
 .card-img-top {
@@ -76,16 +82,19 @@ width:100vw;
   object-fit: cover;
 }
 
-.card-title {
+.bold-color-card{
+  color: #D90368 !important;
+  font-size: 1rem;
   font-weight: bold;
 }
 
-.card-price {
-  font-size: 1rem;
+.card-price strong {
+  color: rgb(0, 0, 0);
 }
 
 .fw-bold {
     color: #D90368 !important;
+    letter-spacing: 2px;
 }
 
 .card:hover {
@@ -213,7 +222,6 @@ strong {
 /*footer*/
 .footer {
   background-color: #000000 !important;
-  color: white;
   width: 100%;
   padding: 40px 15px;
   }
@@ -232,15 +240,21 @@ strong {
   color: white;
 }
   
-.text_footer {
-  color: #D90368 !important;
+.d-flex div:hover {
+  transform: scale(1.01);
+  color: rgb(0, 0, 0)!important;
+}
+
+.footer_text {
+  color: #D90368;
+  transition: color 0.3s ease-in-out;
   font-weight: bold;
   font-size: 22px;
 }
-  
-.d-flex div:hover {
-  transform: scale(1.01);
-  color: rgb(2, 2, 2)!important;
+
+/*footer - No lo estaria tomando :(*/
+.footer_text:hover {
+  color: rgb(255, 255, 255)!important;
 }
 
 /*table*/
@@ -259,6 +273,15 @@ strong {
   border: 1px solid #D90368;
   padding: 0.75rem;
   vertical-align: top;
+  color: rgb(0, 0, 0)!important;
+  font-weight: bolder;
+  letter-spacing: 1.5px;
+}
+
+.table th{
+  color: rgb(255, 255, 255)!important;
+  letter-spacing: 3px;
+  font-size: 19px;
 }
 
 .table th,
@@ -311,7 +334,7 @@ strong {
 /*carousel*/
 @media (max-width: 576px) {
   .carousel-item img {
-    max-height: 200px;
+    max-height: 500px;
   }
   
   .carousel-caption h3 {
