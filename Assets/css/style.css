@@ -38,17 +38,11 @@ width:100vw;
   color: #000000 !important;
 }
 
-.checks_search{
-  font-size: 18px;
+.form-check-label{
+  font-size: 14px;
   color: #ffffff !important;
-  padding: 12px;
+  padding-right: 12px;
   font-family: 'Courier New', Courier, monospace;
-  font-weight: bold;
-}
-
-.form-check-input:checked {
-  background-color: #000000;
-  border-color: #000000;
 }
 
 /* ICON SEARCH */
@@ -70,12 +64,12 @@ width:100vw;
 
 /*Card*/
 .card {
-  height: 23rem;
+  height: 30rem;
   width: 18.5rem;
   border-color: #D90368 !important;
   border-width: 2px;
   padding-bottom: 2px;
-  margin-bottom: 20px;
+
 }
 .card-body{
   margin-top: auto;
@@ -106,60 +100,23 @@ width:100vw;
   box-shadow: rgba(0, 0, 0, 100) 0px 0px 0px 2px, rgba(0, 0, 0, 100) 0px 4px 6px -1px, rgba(0, 0, 0, 100) 0px 1px 0px inset;
 }
 
-.resultados-busqueda .evento {
-  padding: 10px;
-}
-
-.col-lg-3 {
-  flex: 0 0 auto;
-  width: 22%;
-}
-
 @media (max-width: 576px) {
-  #cardContainer .row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-  }
-  #cardContainer .col-md-3 {
-    width: 100%;
-    margin: 0.3rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-  }
-}
-
-/* @media (max-width: 576px) {
   #cardContainer .col-md-3 {
     width: 100%;
     height: auto;
     margin-bottom: 0.3rem;
-    padding-left: auto;
   }
-} */
+}
 
 @media (max-width: 767px) {
   .col-md-3 {
     margin-bottom: 1rem;
   }
+
   .card {
     margin-bottom: 1rem;
   }
 }
-
-@media (min-widht:991px) {
-  .col-lg-3 {
-    flex: 0 0 auto;
-    width: 22%;
-    padding-right: 1.5rem;
-    padding-top: 1.5rem;
-    margin-top: 0%;
-}
-}
-
 
 /*form*/
 
@@ -179,10 +136,8 @@ form {
   box-shadow: rgba(0, 0, 0, 100) 0px 0px 0px 2px, rgba(0, 0, 0, 100) 0px 4px 6px -1px, rgba(0, 0, 0, 100) 0px 1px 0px inset;
 }
 
-.form-label {
-  font-size: 18px;
-  color: #000000 !important;
-  padding-right: 12px;
+label {
+  font-weight: bold;
 }
 
 textarea {
@@ -362,17 +317,19 @@ strong {
     margin-right: 10px;
     width: calc(50% - 10px); 
   }
+
   /* Estilos para la barra de búsqueda */
   .input-group {
     display: flex;
-    max-width: 500px;
+    width: 100%;
     margin-top: 1px;
     justify-content: center;
+    padding-right: 25px;
   }
 
   /* Ajuste de los estilos para la alineación de los elementos */
   .d-flex {
-    display: block;
+    display: flex !important;
     flex-wrap: wrap;
   }
 
