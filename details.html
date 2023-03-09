@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Details</title>
+    <!-- Bootstrap 5.3v -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- íconos de bootstrap  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <!--favicon -->
+    <link href="./assets/img/favicon.ico" type="image/x-icon" rel="shortcut icon">
+</head>
+<body>
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="./index.html">
+        <img src="./assets/img/Logo_Amazing_Events.png" alt="logo" class="logo d-inline-block align-text-top">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2" width="32" height="32" viewBox="0 0 24 24" stroke-width="2.5" stroke="#fd0061" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <line x1="4" y1="6" x2="20" y2="6" />
+            <line x1="4" y1="12" x2="20" y2="12" />
+            <line x1="4" y1="18" x2="20" y2="18" />
+          </svg>
+        </span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./upcoming_events.html">Upcoming Events</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./past_events.html">Past Events</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./stats.html">Stats</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+<section class="details" style="padding-top: 70px;">
+  <div class="container">
+    <div id="eventContainer" class="row">
+      <!-- <div class="col-md-5">
+        <img src="./assets/img/Details_Music_Concert.jpg" alt="Music_Concert" class="mb-4 mb-md-0">
+      </div>
+      <div class="col-md-6 d-flex flex-column justify-content-center">
+        <h2 class="details_title">Lorem Ipsum</h2>
+        <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed faucibus ipsum sed nulla luctus, eu consequat nulla convallis. Maecenas aliquet justo ac ultricies malesuada. Sed convallis eros ut mauris fringilla, non efficitur augue convallis. Aliquam id turpis vitae justo porttitor tempor. Aenean maximus diam vel diam vehicula, ut cursus augue ornare. Sed euismod, arcu et finibus ultrices, ipsum nibh mattis justo, sit amet dapibus mauris ante eget mauris.</p>
+        <p><strong>Place:</strong> Madison Square Garden, New York City, NY</p>
+        <p><strong>Capacity:</strong> 20,000 people</p>
+        <p><strong>Audience:</strong> General public</p>
+        <p><strong>Price:</strong> $250</p>
+      </div>
+    </div> -->
+  </div>
+</div>
+</section>
+
+<section class="button_back">
+  <button onclick="window.history.back()" class="btn btn-primary button_back">back</button>
+</section>
+</main>
+
+<footer class="footer">
+    <div class="container">
+      <div class="d-flex justify-content-between align-items-center">
+        <div class="social-icons">
+          <a href="#"><i class="bi bi-instagram"></i></a>
+          <a href="#"><i class="bi bi-facebook"></i></a>
+          <a href="#"><i class="bi bi-whatsapp"></i></a>
+        </div>
+        <div class="footer_text">Cohort FE08TN</div>
+      </div>
+    </div>
+</footer>
+
+<script src="./assets/js/data.js"></script>
+<script src="./assets/js/details.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" 
+crossorigin="anonymous"></script> 
+</body>
+</html>
