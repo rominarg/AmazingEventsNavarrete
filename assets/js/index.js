@@ -88,11 +88,15 @@ function imprimirCard(array) {
   function impCheck(category) {
     let impCheckboxslocation = "";
     category.forEach((categoria) => {
-      impCheckboxslocation += `<label class="checks_search">            
+      impCheckboxslocation += `
+      <div class="form-check mr-3">
+      <label class="checks_search">            
       <input class="form-check-input text-start" type="checkbox" 
       value=${categoria} id="flexCheckChecked">
       ${categoria}
-      </label>`;
+      </label>
+      </div>
+      `;
     });
     checkContainer.innerHTML = impCheckboxslocation;
   }
