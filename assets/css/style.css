@@ -70,7 +70,7 @@ width:100vw;
 
 /*Card*/
 .card {
-  height: 23rem;
+  height: 27rem;
   width: 18.5rem;
   border-color: #D90368 !important;
   border-width: 2px;
@@ -85,6 +85,12 @@ width:100vw;
 .card-img-top {
   height: 40%;
   object-fit: cover;
+}
+
+.card-footer{
+  background-color: #d903671e;
+  /* border: 3px solid #D90368;!important; */
+  border-top: 3px solid #D90368;
 }
 
 .bold-color-card{
@@ -312,14 +318,21 @@ strong {
   border: 5px solid #D90368;
 }
   
-.table th,
-.table td {
+.table th {
+  background-color: #000!important;
+  color: #D90368!important;
   border: 1px solid #D90368;
   padding: 0.75rem;
   vertical-align: top;
-  color: rgb(0, 0, 0)!important;
   font-weight: bolder;
   letter-spacing: 1.5px;
+}
+.subtitle_table {
+  background-color: #D90368!important;
+  color: #fff!important;
+  border: 1px solid #ffffff;
+  font-weight: bolder;
+  letter-spacing: 3px;
 }
 
 .table th{
@@ -394,4 +407,33 @@ strong {
   .carousel-caption {
     font-size: 0.8rem;
   }
+}
+
+/*img_datails*/
+.event-card img {
+  max-width: 100%!important;
+  height: auto!important;
+}
+
+/*price_card*/
+.price-btn {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: default;
+  transition: all 0.2s ease-in-out;
+}
+
+.price-btn:hover {
+  background-color: #D90368;
+  color: #000;
+  transition: all 0.2s ease-in-out;
+}
+
+.card_end {
+  align-items: flex-end;
+  padding-top: 0%;
 }
