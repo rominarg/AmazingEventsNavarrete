@@ -297,7 +297,7 @@ strong {
   color: rgb(0, 0, 0)!important;
 }
 
-.footer_text {
+.cohort_text {
   color: #D90368;
   transition: color 0.3s ease-in-out;
   font-weight: bold;
@@ -305,8 +305,8 @@ strong {
 }
 
 /*footer - No lo estaria tomando :(*/
-.footer_text:hover {
-  color: rgb(255, 255, 255)!important;
+.cohort_text :hover {
+  color: white !important;
 }
 
 /*table*/
