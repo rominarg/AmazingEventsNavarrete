@@ -73,8 +73,8 @@ ${templateHtml}
         </div>
       </div>
       <section class="button_back">
-        <a href="upcoming_events.html" class="btn btn-primary button_back">Back</button>
-      </section>
+  <a href="upcoming_events.html" class="btn btn-primary button_back">Back</a>
+</section>
     `;
   }
 }

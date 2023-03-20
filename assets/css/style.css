@@ -245,8 +245,9 @@ strong {
 
 .button_back{
   display: flex;
-  justify-content: flex-end !important;
-  padding: 1%;
+  justify-content: center !important;
+  width: 100%;
+  font-size: 22px;
 }
 
 /*footer*/

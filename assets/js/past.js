@@ -70,8 +70,8 @@ function imprimirCardPast(data) {
         </div>
       </div>
       <section class="button_back">
-        <a href="past_events.html" class="btn btn-primary button_back">Back</button>
-      </section>
+  <a href="past_events.html" class="btn btn-primary button_back">Back</a>
+</section>
     `;
   }
 }

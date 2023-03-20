@@ -69,8 +69,8 @@ function imprimirCard(array) {
         </div>
       </div>
       <section class="button_back">
-      <a href="index.html" class="btn btn-primary button_back">Back</button>
-      </section>
+      <a href="index.html" class="btn btn-primary button_back">Back</a>
+    </section>
       `;
   }
 }
