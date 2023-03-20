@@ -46,7 +46,7 @@ function imprimirCardUpcoming(data) {
       // console.log(eventDate)
       if (eventDate > curDate) {
         templateHtml += `
-        <div class="col-md-4 col-sm-6 col-lg-3">
+        <div class="col-12 col-md-6 col-lg-3">
         <div class="card">
           <img src="${event.image}" class="card-img-top" alt="...">
           <div class="card-body">
@@ -54,20 +54,16 @@ function imprimirCardUpcoming(data) {
             <p class="card-text">${event.description}</p>
           </div>
           <div class="card-footer">
-            <div class="d-flex p-2 justify-content-between h-10">
             <div class="price-btn">Price $${event.price}</div>
               <a href="./details.html?id=${event._id}" class="btn btn-primary">See More</a>
             </div>
           </div>
-        </div>
       </div>   
         `;
       }
     });
-    cardContainer.innerHTML = `
-    <div class="row justify-content-center text-center">
-            ${templateHtml}
-          </div>
+cardContainer.innerHTML = `
+${templateHtml}
     `;
   } else {
     cardContainer.innerHTML = `

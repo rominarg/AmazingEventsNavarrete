@@ -31,7 +31,16 @@ font-size: 30%;
 width:100vw;
 }
 
-.container_flex{
+.container_category{
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 8vh; 
+  background-color: #D90368 !important;
+  color: #000000 !important;
+}
+
+.container_search{
   display: flex;
   justify-content: center; 
   align-items: center; 
@@ -41,11 +50,14 @@ width:100vw;
 }
 
 .checks_search{
-  font-size: 18px;
+  font-size: 15px;
   color: #ffffff !important;
   padding: 12px;
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
+  background-color: #D90368 !important;
+  justify-content: center; 
+  align-items: center; 
 }
 
 .form-check-input:checked {
@@ -71,21 +83,31 @@ width:100vw;
 }
 
 /*Card*/
-.card {
-  height: 27rem;
-  width: 18.5rem;
-  border-color: #D90368 !important;
-  border-width: 2px;
-  padding-bottom: 2px;
-  margin-bottom: 20px;
-}
-.card-body{
-  margin-top: auto;
-  height: auto;
+#cardContainer{
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
 }
 
+.card {
+  height: 27rem;
+  width: 18rem;
+  border-color: #D90368 !important;
+  border-width: 2px;
+  margin-top: 5px;
+  padding-bottom: 2px;
+  margin-bottom: 20px;
+  display: -webkit-inline-flex;
+}
+/* .card-body{
+  margin-top: auto;
+  height: auto;
+} */
+
 .card-img-top {
-  height: 40%;
+  width: 100%;
+  height: 50%;
   object-fit: cover;
 }
 
@@ -93,12 +115,14 @@ width:100vw;
   background-color: #d903671e;
   /* border: 3px solid #D90368;!important; */
   border-top: 3px solid #D90368;
+  padding: 5px;
 }
 
 .bold-color-card{
   color: #D90368 !important;
   font-size: 1rem;
   font-weight: bold;
+  text-align: center;
 }
 
 .card-price strong {
@@ -123,7 +147,12 @@ width:100vw;
   width: 22%;
 }
 
-@media (max-width: 576px) {
+div {
+  display: inline;
+}
+
+
+/* @media (max-width: 576px) {
   #cardContainer .row {
     display: flex;
     flex-wrap: wrap;
@@ -138,7 +167,7 @@ width:100vw;
     justify-content: center;
     align-items: center;
   }
-}
+} */
 
 /* @media (max-width: 576px) {
   #cardContainer .col-md-3 {
@@ -148,7 +177,7 @@ width:100vw;
     padding-left: auto;
   }
 } */
-
+/* 
 @media (max-width: 767px) {
   .col-md-3 {
     margin-bottom: 1rem;
@@ -166,7 +195,7 @@ width:100vw;
     padding-top: 1.5rem;
     margin-top: 0%;
 }
-}
+} */
 
 
 /*form*/
@@ -188,7 +217,7 @@ form {
 }
 
 .form-label {
-  font-size: 18px;
+  font-size: 15px;
   color: #000000 !important;
   padding-right: 12px;
 }
@@ -241,7 +270,9 @@ button[type="submit"]:hover {
 
 /* details*/
 section.details {
-  padding: 23px 0;
+  /* padding: 23px 0; */
+  margin-left: 3rem;
+  width: 100%;
 }
   
 img {
@@ -305,8 +336,8 @@ strong {
 }
 
 /*footer - No lo estaria tomando :(*/
-.cohort_text :hover {
-  color: white !important;
+.cohort_text:hover {
+  color: rgb(255, 255, 255)!important;
 }
 
 /*table*/
@@ -369,14 +400,23 @@ strong {
   /* Ancho del contenedor a pantalla completa */
   .container_flex {
     width: 100%;
-    font-size: 16px;
+    font-size: 8px;
   }
 
   /* Estilos para los elementos del formulario */
+  @media (max-width: 767px){
   .form-check {
     margin-right: 10px;
     width: calc(50% - 10px); 
   }
+}
+
+.form-check {
+    display: block;
+    min-height: 1.5rem;
+    padding-left: 1.5em;
+    margin-bottom: .125rem;
+}
   /* Estilos para la barra de búsqueda */
   .input-group {
     display: flex;
@@ -386,15 +426,14 @@ strong {
   }
 
   /* Ajuste de los estilos para la alineación de los elementos */
+ 
+  @media (max-width: 767px){ 
   .d-flex {
-    display: block;
+    display: flex !important;
     flex-wrap: wrap;
   }
-
-  .d-flex > * {
-    margin-bottom: 10px;
   }
-}
+
 
 /*carousel*/
 @media (max-width: 576px) {
@@ -421,6 +460,7 @@ strong {
 .price-btn {
   display: inline-block;
   padding: 5px 10px;
+  margin-right: 3rem;
   background-color: #000;
   color: #fff;
   border-radius: 5px;
@@ -438,4 +478,7 @@ strong {
 .card_end {
   align-items: flex-end;
   padding-top: 0%;
+on {
+    font-size: 0.8rem;
+  }
 }

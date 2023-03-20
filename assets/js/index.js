@@ -41,28 +41,24 @@ function imprimirCard(array) {
   if (array.length !== 0) {
     array.forEach((data) => {
       locationforCards +=`
-      <div class="col-md-4 col-sm-6 col-lg-3">
+      <div class="col-12 col-md-6 col-lg-3">
       <div class="card">
-        <img src="${data.image}" class="card-img-top" alt="...">
-        <div class="card-body" style="padding: 1rem;">
+        <img src="${data.image}" class="card-img-top" alt="image">
+        <div class="card-body">
           <h5 class="card-title fw-bold">${data.name}</h5>
           <p class="card-text">${data.description}</p>
         </div>
         <div class="card-footer">
-          <div class="d-flex p-2 justify-content-between">
             <div class="price-btn">Price $${data.price}</div>
             <a href="./details.html?id=${data._id}" class="btn btn-primary">See More</a>
           </div>
         </div>
-      </div>
     </div>    
       `;
     });
     // Agrego las tarjetas al contenedor en el DOM
     cardContainer.innerHTML = `
-      <div class="row justify-content-center text-center">
         ${locationforCards}
-      </div>
     `;
     // Si no hay eventos, mostramos un mensaje
   } else {
