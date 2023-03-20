@@ -31,11 +31,10 @@ font-size: 30%;
 width:100vw;
 }
 
-.container_category{
+.container_flex_category {
   display: flex;
   justify-content: center; 
   align-items: center; 
-  height: 8vh; 
   background-color: #D90368 !important;
   color: #000000 !important;
 }
@@ -85,7 +84,7 @@ width:100vw;
 /*Card*/
 #cardContainer{
   width: 100%;
-  margin: 0 auto;
+  margin: 20px;
   text-align: center;
   align-items: center;
 }
