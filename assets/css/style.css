@@ -100,10 +100,6 @@ width:100vw;
   margin-bottom: 20px;
   display: -webkit-inline-flex;
 }
-/* .card-body{
-  margin-top: auto;
-  height: auto;
-} */
 
 .card-img-top {
   width: 100%;
@@ -148,58 +144,10 @@ width:100vw;
 }
 
 div {
-  display: inline;
+display: inline;
 }
-
-
-/* @media (max-width: 576px) {
-  #cardContainer .row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-  }
-  #cardContainer .col-md-3 {
-    width: 100%;
-    margin: 0.3rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-  }
-} */
-
-/* @media (max-width: 576px) {
-  #cardContainer .col-md-3 {
-    width: 100%;
-    height: auto;
-    margin-bottom: 0.3rem;
-    padding-left: auto;
-  }
-} */
-/* 
-@media (max-width: 767px) {
-  .col-md-3 {
-    margin-bottom: 1rem;
-  }
-  .card {
-    margin-bottom: 1rem;
-  }
-}
-
-@media (min-widht:991px) {
-  .col-lg-3 {
-    flex: 0 0 auto;
-    width: 22%;
-    padding-right: 1.5rem;
-    padding-top: 1.5rem;
-    margin-top: 0%;
-}
-} */
-
 
 /*form*/
-
 form {
   max-width: 500px;
   margin: auto;
@@ -401,7 +349,7 @@ strong {
   .container_flex {
     width: 100%;
     font-size: 8px;
-  }
+  }}
 
   /* Estilos para los elementos del formulario */
   @media (max-width: 767px){
@@ -426,7 +374,6 @@ strong {
   }
 
   /* Ajuste de los estilos para la alineación de los elementos */
- 
   @media (max-width: 767px){ 
   .d-flex {
     display: flex !important;
@@ -482,3 +429,7 @@ on {
     font-size: 0.8rem;
   }
 }
+#checkContainer {
+  background-color: #D90368;
+}
+

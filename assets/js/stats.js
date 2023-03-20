@@ -51,9 +51,9 @@ past.forEach(event => {
     }
 });
 tab3.innerHTML += `<tr>
-                        <td class="data_table fst-italic ps-1">${element}</td>
-                        <td class="data_table fst-italic ps-1">$${revenues.toLocaleString('de-DE')}</td>
-                        <td class="data_table fst-italic ps-1">${(Math.round(assistance * 10000 / capacity) / 100).toFixed(2) + "%"}</td>
+                        <td class="data_table bold ps-1">${element}</td>
+                        <td class="data_table bold ps-1">$${revenues.toLocaleString('de-DE')}</td>
+                        <td class="data_table bold ps-1">${(Math.round(assistance * 10000 / capacity) / 100).toFixed(2) + "%"}</td>
                     </tr>`;
 });
 
@@ -69,15 +69,15 @@ eventCategoryUpcoming.forEach(element => {
     }
     });
 tab2.innerHTML += `<tr>
-    <td class="data_table fst-italic ps-1">${element}</td>
-    <td class="data_table fst-italic ps-1">$${revenues.toLocaleString('de-DE')}</td>
-    <td class="data_table fst-italic ps-1">${(estimate * 100 / capacity).toFixed(2)}%</td>
+    <td class="data_table fst-bold ps-1">${element}</td>
+    <td class="data_table fst-bold ps-1">$${revenues.toLocaleString('de-DE')}</td>
+    <td class="data_table fst-bold ps-1">${(estimate * 100 / capacity).toFixed(2)}%</td>
 </tr>`;
 });                 
 tab1.innerHTML += `<tr>
-<td class="data_table fst-italic ps-1">${maxpercentageOfasistance.name}: ${maxpercentageOfasistance.percentageAssistance.toFixed(2)}%</td>
-                        <td class="data_table fst-italic ps-1">${minpercentageOfasistance.name}: ${minpercentageOfasistance.percentageAssistance}%</td>
-                        <td class="data_table fst-italic ps-1">${maxcapacityEvents.name}: ${parseInt(maxcapacityEvents.capacity).toLocaleString('de-DE')}</td>
+<td class="data_table fst-bold ps-1">${maxpercentageOfasistance.name}: ${maxpercentageOfasistance.percentageAssistance.toFixed(2)}%</td>
+                        <td class="data_table fst-bold ps-1">${minpercentageOfasistance.name}: ${minpercentageOfasistance.percentageAssistance}%</td>
+                        <td class="data_table fst-bold ps-1">${maxcapacityEvents.name}: ${parseInt(maxcapacityEvents.capacity).toLocaleString('de-DE')}</td>
                     </tr>`
 }
 apiEvents()
